@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2596be</color>
+    <color name="colorPrimaryVariant">#1E7898</color>
+    <color name="colorOnPrimary">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button_color">#2596be</color>
+
+    <!-- Modern Camera Button (Green variant) -->
+    <color name="camera_btn_start">#4CAF50</color>
+    <color name="camera_btn_end">#81C784</color>
+    <color name="camera_btn_shadow">#4D4CAF50</color>
+
+    <!-- File Upload Colors -->
+    <color name="file_upload_bg">#EEEEEE</color>
+    <color name="file_upload_border">#525252</color>
+    <color name="file_upload_btn">#525252</color>
+    <color name="file_upload_btn_hover">#0E0E0E</color>
+
+    <!-- Loader Colors -->
+    <color name="loader_color_one">#ffbf48</color>
+    <color name="loader_color_two">#be4a1d</color>
+
+    <!-- Brown Colors -->
+    <color name="settings_brown">#8D6E63</color>
+    <color name="settings_brown_dark">#5D4037</color>
+    <color name="settings_brown_light">#BCAAA4</color>
+    <color name="settings_brown_gradient_start">#A1887F</color>
+    <color name="settings_brown_gradient_end">#6D4C41</color>
+
+    <!-- Unique Green Colors -->
+    <color name="info_green_start">#2E7D32</color>
+    <color name="info_green_end">#1B5E20</color>
+    <color name="info_green_border">#A5D6A7</color>
+</resources>

@@ -1,0 +1,20 @@
+# Heap dumps (Java/Android) - never commit
+*.hprof
+
+# Build outputs
+/build
+app/build
+*.apk
+*.aab
+
+# Local config
+local.properties
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+
+# OS
+.DS_Store
+Thumbs.db

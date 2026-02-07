@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">نخلاي</string>
+    <string name="title">نخلاي</string>
+    <string name="beta">نسخة تجريبية</string>
+    <string name="desc">مرحبًا بكم في نخلاي!\nتقوم هذه الأداة بتصنيف أنواع النخيل (خلاص، رزيز، شيشي).\n\nطريقة الاستخدام:\n1) التقط صورة أو ارفع صورة\n2) اختر صورة للنخلة\n3) ستحصل على النتيجة فوراً!</string>
+    <string name="abs_title">عن المشروع</string>
+    <string name="abs_text">مجموعة نماذج ConvNeXt Small (TFLite). يستخدم TTA (قلب الصورة) لزيادة ثبات ودقة التصنيف.</string>
+    <string name="cam">التقاط صورة</string>
+    <string name="up">ارفع صورة</string>
+    <string name="res">النتيجة</string>
+    <string name="conf">الدقة</string>
+    <string name="unk">غير معروف / نوع آخر</string>
+    <string name="act_cam">تشغيل الكاميرا</string>
+    <string name="close_cam">إغلاق الكاميرا</string>
+    <string name="reset">إعادة تعيين / فحص جديد</string>
+    <string name="analyzing">جاري التحليل...</string>
+    <string name="no_models">لم يتم العثور على نماذج TFLite (*.tflite).</string>
+    <string name="pick_image">اختر صورة (jpg/png)</string>
+    <string name="about">عن المشروع</string>
+    <string name="theme_light">التبديل إلى الوضع الفاتح</string>
+    <string name="theme_dark">التبديل إلى الوضع الداكن</string>
+    <string name="settings_title">الإعدادات</string>
+    <string name="dark_mode">الوضع الداكن</string>
+    <string name="switch_to_arabic">التحويل للعربية</string>
+    <string name="switch_to_english">التبديل للإنجليزية</string>
+    <string name="cnn_info">معلومات CNN Small</string>
+
+    <string name="khalas">خلاص</string>
+    <string name="shishi">شيشي</string>
+    <string name="razzez">رزيز</string>
+
+    <string name="khalas_title">خلاص</string>
+    <string name="khalas_desc">الخلاص هو نوع من أنواع التمور، تشتهر به مناطق [القصيم، الخرج والأحساء ] في السعودية. ويتميز بالحفاظ على نكهته الطيبة بعد فترة طويلة من تخزينه، وله لون أصفر مشمشي، حلو المذاق، ويقدم عادة مع القهوة العربية في المناسبات.\n\nيعتبر من أحسن أصناف التمور، ويمثل ما بين 15 إلى 20 % من نخيل الإحساء بالسعودية، ويعتبر من الأصناف التجارية الممتازة المرغوبة في الأسواق إذ يحتفظ بنكهته الطيبة عند خزنه لفترة طويلة.</string>
+
+    <string name="shishi_title">شيشي</string>
+    <string name="shishi_desc">المواصفات الشكلية والفيزيائية:\nاللون: يتميز باللون البني في معظمه، مع قاعدة ذهبية صفراء واضحة.\nالحجم والقوام: يُعرف بحجمه الكبير وقوامه السميك والجاف قليلاً.\nالرطوبة: يحتوي على نسبة رطوبة تقدر بنحو 17.46%.\n\nالمذاق والقيمة التجارية:\nالنكهة: يعتبر من أصناف التمور شديدة الحلاوة.\nالأهمية الاقتصادية:\n* يشكل مع صنف \"الخلاص\" و\"الرزيز\" نحو 75% من إجمالي إنتاج منطقة الأحساء.\nيمثل صنف الشيشي وحده 50% من إجمالي إنتاج التمور في المملكة العربية السعودية.</string>
+
+    <string name="razzez_title">رزيز</string>
+    <string name="razzez_desc">المكانة التاريخية والإنتاج:\nالموطن: تشتهر به محافظة الأحساء بالمنطقة الشرقية، وكان يُعد التمر الأشهر فيها قديماً.\nالندرة الحالية: يعتبر حالياً من الأصناف النادرة؛ نظراً لتوجه المزارعين للتوسع في زراعة تمر \"الخلاص\" على حسابه.\nالأهمية الاقتصادية: يشكل مع الخلاص والشيشي حوالي 75% من إنتاج الأحساء، ويصل متوسط سعر \"المن\" منه إلى 700 ريال.\n\nالمواصفات والخصائص:\nالحجم والشكل: تمر متوسط الحجم وله قشرة واضحة.</string>
+
+    <string name="technical_info_title">المعلومات التقنية</string>
+    <string name="technical_info_desc">يستخدم هذا التطبيق خوارزميات التعلم العميق المتقدمة المصممة خصيصًا لمعالجة الصور الزراعية. المحرك الأساسي مبني على مجموعة من الشبكات العصبية ConvNeXt Small، المحسنة للتشغيل على الأجهزة المحمولة عبر TensorFlow Lite. وهذا يضمن دقة عالية ووقت استجابة منخفض أثناء تصنيف أشجار النخيل في الوقت الفعلي.</string>
+
+    <string-array name="labels">
+        <item>خلاص</item>
+        <item>رزيز</item>
+        <item>شيشي</item>
+    </string-array>
+</resources>

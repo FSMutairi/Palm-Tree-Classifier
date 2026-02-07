@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">NakhelAI</string>
+    <string name="title">NakhelAI</string>
+    <string name="beta">BETA VERSION</string>
+    <string name="desc">Welcome to NakhelAI!\nThis AI tool identifies palm types (Khalas, Razzez, Shishi).\n\nHow to use:\n1) Take Photo or Upload File\n2) Provide an image\n3) Get instant results!</string>
+    <string name="abs_title">About the Project</string>
+    <string name="abs_text">Ensemble of ConvNeXt Small models (TFLite). Uses Test Time Augmentation (flip) to classify palm types with robustness.</string>
+    <string name="cam">Take Photo</string>
+    <string name="up">Upload File</string>
+    <string name="res">Result</string>
+    <string name="conf">Confidence</string>
+    <string name="unk">Unknown / Other</string>
+    <string name="act_cam">Activate Camera</string>
+    <string name="close_cam">Close Camera</string>
+    <string name="reset">Reset / New Prediction</string>
+    <string name="analyzing">Analyzing...</string>
+    <string name="no_models">No TFLite models found (*.tflite).</string>
+    <string name="pick_image">Pick an image (jpg/png)</string>
+    <string name="about">About</string>
+    <string name="theme_light">Switch to Light Mode</string>
+    <string name="theme_dark">Switch to Dark Mode</string>
+    <string name="settings_title">Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="switch_to_arabic">Switch to Arabic</string>
+    <string name="switch_to_english">Switch to English</string>
+    <string name="cnn_info">CNN small info</string>
+
+    <string name="khalas">Khalas</string>
+    <string name="shishi">Shishi</string>
+    <string name="razzez">Razzez</string>
+
+    <string name="khalas_title">Khalas</string>
+    <string name="khalas_desc">Khalas is a variety of date palm fruit, famous in the regions of Al-Qassim, Al-Kharj, and Al-Ahsa in Saudi Arabia. It is distinguished by its ability to retain its excellent flavor even after long periods of storage. It has an apricot-yellow color, a sweet taste, and is typically served with Arabic coffee during social occasions.\n\nIt is considered one of the finest varieties of dates, accounting for approximately 15% to 20% of the palm trees in Al-Ahsa. As a premium commercial variety, it is highly sought after in markets due to its superior quality and long-lasting flavor profile.</string>
+
+    <string name="shishi_title">Shishi</string>
+    <string name="shishi_desc">Physical Characteristics:\nColor: Primarily brown with a distinct golden-yellow base.\nSize &amp; Texture: Known for its large size and a thick, slightly dry texture.\nMoisture Content: Contains a moisture level of approximately 17.46%.\n\nTaste &amp; Market Significance:\nFlavor Profile: It is classified as an intensely sweet variety of date.\nEconomic Importance:\nAlong with the \"Khalas\" and \"Razzez\" varieties, it accounts for 75% of the total production in Al-Ahsa.\nThe Shishi date alone constitutes 50% of Saudi Arabia\'s overall date production.</string>
+
+    <string name="razzez_title">Razzez</string>
+    <string name="razzez_desc">Historical Status &amp; Production:\nOrigin: Famous in the Al-Ahsa Governorate of the Eastern Province; it was historically the most prominent date variety in the region.\nCurrent Rarity: It is now considered a rare variety because most farmers have prioritized the cultivation of \"Khalas\" dates.\nEconomic Value: Along with Khalas and Shishi, it accounts for 75% of Al-Ahsa\'s total production. The average price per \"Mann\" (a traditional unit of weight) is approximately 700 SAR.\n\nCharacteristics &amp; Uses:\nSize &amp; Appearance: A medium-sized date with a visible outer skin.</string>
+
+    <string name="technical_info_title">Technical Information</string>
+    <string name="technical_info_desc">This application utilizes advanced deep learning algorithms specifically designed for agricultural image processing. The core engine is built upon an ensemble of ConvNeXt Small neural networks, optimized for mobile deployment via TensorFlow Lite. This ensures high accuracy and low latency during real-time palm tree classification.</string>
+
+    <string-array name="labels">
+        <item>Khalas</item>
+        <item>Razzez</item>
+        <item>Shishi</item>
+    </string-array>
+</resources>
