@@ -26,6 +26,14 @@ Android app that identifies date palm varieties (**Khalas**, **Razzez**, **Shish
 - **Kotlin** 1.8+
 - A running **backend API** that exposes a `/predict` endpoint (image upload → JSON with `prediction`, `confidence`, `class_id`)
 
+## Download APK
+
+A debug APK is included in the repo for quick testing (no build required):
+
+- **`app-debug.apk`** – Install on an Android device (API 24+). Enable "Install from unknown sources" if needed.
+
+> **Note:** GitHub has a 100 MB file size limit. If the APK is larger, use [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github) to host it and link the release here.
+
 ## Build & Run
 
 1. Clone the repo:
@@ -62,6 +70,7 @@ PALM_ANDROID/
 │   │   ├── res/                   # Layouts, drawables, strings (en/ar), themes
 │   │   └── AndroidManifest.xml
 │   └── build.gradle.kts
+├── app-debug.apk          # Pre-built debug APK (optional)
 ├── build.gradle.kts
 ├── settings.gradle.kts
 └── README.md
